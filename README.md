@@ -1,9 +1,17 @@
-# Codename: FrameUI For Firefox
-A new way to view your web content, like looking at photos printed from an old Polaroid camera.
+# FrameUI
+Simple, elegant, minimal. Get the best view out of your web page.
 
-![a1fd4499dd2be9a2ecccc660a6ce0696](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/75c5a475-d440-4481-a002-9cdb754155ed)
+![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/80a99ce5-ce1c-4037-beba-0ba69900eb5d)
+*paired with tabliss for better looking*
+
 
 # Changelog
+
+**Fork:**
+* **0.1**: Added Centered, semi transparent tabs and transitions. Two flaws were introduced: A tiny line on the bottom right of the screen and the transition on the menu is buggy. I'm working on it.
+
+**Main:**
+
 **Version 0.3a:**
 * The latest Firefox update caused some issues with clicking on interface elements, including the window controls.  The latest update to the theme fixes this issue.
   * I'm not sure if the update caused any other issues, so please report them as you see them.  
@@ -44,6 +52,10 @@ A new way to view your web content, like looking at photos printed from an old P
 * FrameUI was designed to have the window control buttons on the bottom. However, due to the way that fullscreen windows work on macOS, the window control buttons will remain at the top of the window like other macOS apps. This complication is not present in windowed mode.
 
 # Screenshots
+![image](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/57bf8350-beb7-46a1-b26a-9d449144dc65)
+![image](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/8da24245-e337-4fa9-8c8e-542b02fa7e26)
+
+*Main:*
 ![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/73b7328d-3b6c-47f6-b4fe-d341aa46b88b)
 ![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/ed6123fd-b6fd-4124-b264-a83468fa1bc8)
 ![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/3b7a9f63-6cae-43de-bfb0-d07fd28b8d10)
