@@ -8,6 +8,7 @@ Simple, elegant, minimal. Get the best view out of your web page.
 # Changelog
 
 **Fork:**
+* **0.1a**: Fixed buggy application transition.
 * **0.1**: Added Centered, semi transparent tabs and transitions. Two flaws were introduced: A tiny line on the bottom right of the screen and the transition on the menu is buggy. I'm working on it.
 
 **Main:**
