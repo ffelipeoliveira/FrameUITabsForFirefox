@@ -11,9 +11,7 @@
   opacity: 0.6 !important;
 }
 
-* {
-  transition: all 0.3s !important;
-}
+
 
 /* fix private browsing indicator icon in private browsing mode. */
 #private-browsing-indicator-with-label > label {
@@ -269,7 +267,11 @@ See the above repository for updates as well as full license text. */
   margin-left: 8vw !important;
   margin-right: 8vw !important;
   pointer-events: none;
-  border: none;
+  border-left: none;
+
+  * {
+    transition: all 0.3s !important;
+  }
 }
 
 :root[BookmarksToolbarOverlapsBrowser] #tabbrowser-tabs {
