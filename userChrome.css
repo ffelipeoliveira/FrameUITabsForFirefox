@@ -267,11 +267,12 @@ See the above repository for updates as well as full license text. */
   margin-left: 8vw !important;
   margin-right: 8vw !important;
   pointer-events: none;
-  border-left: none;
 
   * {
     transition: all 0.3s !important;
   }
+
+  border-inline-start: none !important;
 }
 
 :root[BookmarksToolbarOverlapsBrowser] #tabbrowser-tabs {
