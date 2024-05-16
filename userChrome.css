@@ -229,7 +229,6 @@ See the above repository for updates as well as full license text. */
     padding-left: 10px !important;
   }
   #toolbar-menubar {
-    background: transparent !important;
     position: static;
     display: flex;
     margin-top: 0px !important;
@@ -250,7 +249,6 @@ See the above repository for updates as well as full license text. */
 #firefox-view-button,
 .tabs-alltabs-button {
   visibility: hidden !important;
-  background: transparent !important;
 }
 
 /* ----------------------------------------------------------- */
@@ -280,7 +278,7 @@ See the above repository for updates as well as full license text. */
 }
 
 .tabbrowser-tab {
-  opacity: 60% !important;
+  opacity: 40% !important;
 }
 
 .tabbrowser-tab:hover {
@@ -296,19 +294,17 @@ scrollbox[orient=horizontal] {
 }
 
 .tab-background {
-  background-color: #00000079;
   opacity: 80%;
   border-radius: 5px;
 }
 
 .tab-background:hover {
   opacity: 100% !important;
-  background-color: #333333 !important;
+  filter: brightness(20%);
 }
 
 .tabbrowser-tab[selected] .tab-background {
   opacity: 100%;
-  background-color: black !important;
 }
 
 .tab-close-button {
@@ -325,7 +321,7 @@ scrollbox[orient=horizontal] {
 /*Added background to the new tab button*/
 #tabs-newtab-button {
   pointer-events: all !important;
-  background-color: #00000079 !important;
+  background-color: inherit !important;
   opacity: 80% !important;
   border-radius: 4px !important;
   margin-bottom: 5px !important;
