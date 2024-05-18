@@ -265,6 +265,7 @@ See the above repository for updates as well as full license text. */
   margin-left: 8vw !important;
   margin-right: 8vw !important;
   pointer-events: none;
+  background-color: inherit;
 
   * {
     transition: all 0.3s !important;
@@ -278,7 +279,7 @@ See the above repository for updates as well as full license text. */
 }
 
 .tabbrowser-tab {
-  opacity: 40% !important;
+  opacity: 70% !important;
 }
 
 .tabbrowser-tab:hover {
@@ -296,6 +297,7 @@ scrollbox[orient=horizontal] {
 .tab-background {
   opacity: 80%;
   border-radius: 5px;
+  background-color: var(--tab-selected-bgcolor);
 }
 
 .tab-background:hover {
@@ -304,6 +306,10 @@ scrollbox[orient=horizontal] {
 }
 
 .tabbrowser-tab[selected] .tab-background {
+  background-image: var(--lwt-additional-images);
+  background-repeat: var(--lwt-background-tiling);
+  background-color: var(--lwt-accent-color);
+  background-size: cover;
   opacity: 100%;
 }
 
