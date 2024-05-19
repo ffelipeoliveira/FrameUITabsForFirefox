@@ -1,20 +1,7 @@
 # FrameUI
 
 Simple, elegant, minimal, like a polaroid photo. The bar and tabs are set on the bottom.
-
-# Screenshots 
-*paired with Tabliss extension for firefox for better looking*
-
 ![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/2e1ef7c2-51f3-4d84-980b-a7a2c402a424)
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/1f4ce1d6-b29e-4bc8-aae0-87fb30370091)
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/4f4f93d0-074d-4755-8469-125f08f249d6)
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/43c4a7d6-c948-406d-b182-6e7a884b33f6)
-
-*Main:*
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/73b7328d-3b6c-47f6-b4fe-d341aa46b88b)
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/ed6123fd-b6fd-4124-b264-a83468fa1bc8)
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/3dba5c46-b83f-4877-b289-67b5aa9949c0)
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/2beeeb4b-99d6-4316-87cf-ca461f959516)
 
 # Installation step-by-step
 
@@ -27,6 +14,20 @@ Search for `about:profiles` on your browser's searchbar.
 Click `Open folder` on `Root folder`.
 Your file explorer should have opened. On the folder that opened check for a `chrome` folder. If there's none then create it.
 Paste the `userChrome.css` file into your `chrome` folder and restart Firefox.
+
+
+# Screenshots 
+*paired with Tabliss extension for firefox for better looking*
+
+![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/1f4ce1d6-b29e-4bc8-aae0-87fb30370091)
+![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/4f4f93d0-074d-4755-8469-125f08f249d6)
+![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/43c4a7d6-c948-406d-b182-6e7a884b33f6)
+
+*Main:*
+![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/73b7328d-3b6c-47f6-b4fe-d341aa46b88b)
+![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/ed6123fd-b6fd-4124-b264-a83468fa1bc8)
+![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/3dba5c46-b83f-4877-b289-67b5aa9949c0)
+![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/2beeeb4b-99d6-4316-87cf-ca461f959516)
 
 # Changelog
 
