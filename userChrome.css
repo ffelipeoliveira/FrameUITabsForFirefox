@@ -261,9 +261,8 @@ See the above repository for updates as well as full license text. */
 #tabbrowser-tabs {
   position: absolute !important;
   bottom: 41px !important;
-  width: 80vw !important;
-  margin-left: 8vw !important;
-  margin-right: 8vw !important;
+  width: 100% !important;
+  margin: auto;
   pointer-events: none;
   background-color: inherit;
 
@@ -327,7 +326,7 @@ scrollbox[orient=horizontal] {
 /*Added background to the new tab button*/
 #tabs-newtab-button {
   pointer-events: all !important;
-  background-color: inherit !important;
+  background-color: var(--tab-selected-bgcolor) !important;
   opacity: 80% !important;
   border-radius: 4px !important;
   margin-bottom: 5px !important;
