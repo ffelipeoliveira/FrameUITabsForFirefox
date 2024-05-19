@@ -2,10 +2,10 @@
 
 Simple, elegant, minimal, like a polaroid photo.
 
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/2e1ef7c2-51f3-4d84-980b-a7a2c402a424)
+![image](https://github.com/ffelipeoliveira/frameUI_tabs/assets/102631323/aa471fef-0b69-477f-8ea1-4a70ec9e406d)
 
 # Installation step-by-step
-
+**Installing**
 * Download this repository's folder and extract it.`userChrome.css` will be inside it, you can copy it using CTRL+C keys.
 * Search for `about:config` on your browser's searchbar.
 * Click the `Accept risks` button on the confirmation page.
@@ -16,23 +16,26 @@ Simple, elegant, minimal, like a polaroid photo.
 * Your file explorer should have opened. On the folder that opened check for a `chrome` folder. If there's none then create it.
 * Paste the `userChrome.css` file into your `chrome` folder and restart Firefox.
 
+**Uninstalling**:
+ * Delete `userChrome.css`.
+
 
 # Screenshots 
 *paired with Tabliss extension for firefox for better looking*
 
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/1f4ce1d6-b29e-4bc8-aae0-87fb30370091)
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/4f4f93d0-074d-4755-8469-125f08f249d6)
-![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/43c4a7d6-c948-406d-b182-6e7a884b33f6)
+![image](https://github.com/ffelipeoliveira/frameUI_tabs/assets/102631323/ecc202ab-6bde-4afa-b353-0bd0bd098d4f)
+![image](https://github.com/ffelipeoliveira/frameUI_tabs/assets/102631323/b63d4534-8c3e-4e4c-83fb-87a1fbed99c0)
+![image](https://github.com/ffelipeoliveira/frameUI_tabs/assets/102631323/30857433-4136-40a8-bc45-646c63822c41)
+
 
 *Main:*
 ![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/73b7328d-3b6c-47f6-b4fe-d341aa46b88b)
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/ed6123fd-b6fd-4124-b264-a83468fa1bc8)
-![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/3dba5c46-b83f-4877-b289-67b5aa9949c0)
 ![image](https://github.com/FineFuturity/FrameUIForFirefox/assets/19298107/2beeeb4b-99d6-4316-87cf-ca461f959516)
 
 # Changelog
 
 **Fork:**
+* **0.2a**: Bug fixes
 * **0.2**: Added theme support for tabs.
 * **0.1c**:  Added workaround for theme support on tabs.
 * **0.1b**: Fixed line appearing on the bottom right.
@@ -80,7 +83,7 @@ Simple, elegant, minimal, like a polaroid photo.
 
 # Notes from fork:
 * This fork isn't itended to be merged into the main repo since it's intended to be a workaround for those who, like me, prefer the native horizontal tabs insted of vertical ones, which are preferred by FineFuturity.
-* It have yet to be tested on Windows, I've only used it on a Linux machine with GTK firefox running.
+* It have yet to be tested on Mac, I've only used it on a Ubuntu and Windows 10.
 * I'm inexperienced on Firefox customization, so there will be lots of erros. If you want please tell me suggestions and report issues, I plan on improving this and keep up to date with the main repo.
   
 # Notes from main:
