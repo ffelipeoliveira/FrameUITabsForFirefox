@@ -1,6 +1,7 @@
 # FrameUI
 
-Simple, elegant, minimal, like a polaroid photo. The bar and tabs are set on the bottom.
+Simple, elegant, minimal, like a polaroid photo.
+
 ![frameUI](https://github.com/ffelipeoliveira/FrameUITabsForFirefox/assets/102631323/2e1ef7c2-51f3-4d84-980b-a7a2c402a424)
 
 # Installation step-by-step
