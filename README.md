@@ -6,15 +6,15 @@ Simple, elegant, minimal, like a polaroid photo.
 
 # Installation step-by-step
 
-Download this repository's folder and extract it.`userChrome.css` will be inside it, you can copy it using CTRL+C keys.
-Search for `about:config` on your browser's searchbar.
-Click the `Accept risks` button on the confirmation page.
-Search for `toolkit.legacyUserProfileCustomizations.stylesheets` using the searchbar that will appear.
-Toggle to `true` using the toggle button.
-Search for `about:profiles` on your browser's searchbar.
-Click `Open folder` on `Root folder`.
-Your file explorer should have opened. On the folder that opened check for a `chrome` folder. If there's none then create it.
-Paste the `userChrome.css` file into your `chrome` folder and restart Firefox.
+* Download this repository's folder and extract it.`userChrome.css` will be inside it, you can copy it using CTRL+C keys.
+* Search for `about:config` on your browser's searchbar.
+* Click the `Accept risks` button on the confirmation page.
+* Search for `toolkit.legacyUserProfileCustomizations.stylesheets` using the searchbar that will appear.
+* Toggle to `true` using the toggle button.
+* Search for `about:profiles` on your browser's searchbar.
+* Click `Open folder` on `Root folder`.
+* Your file explorer should have opened. On the folder that opened check for a `chrome` folder. If there's none then create it.
+* Paste the `userChrome.css` file into your `chrome` folder and restart Firefox.
 
 
 # Screenshots 
