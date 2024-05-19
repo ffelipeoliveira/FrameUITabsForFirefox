@@ -33,8 +33,8 @@ Simple, elegant, minimal, like a polaroid photo.
 # Changelog
 
 **Fork:**
-* **0.2a**: Added theme support for tabs.
-* **0.2**:  Added workaround for theme support on tabs.
+* **0.2**: Added theme support for tabs.
+* **0.1c**:  Added workaround for theme support on tabs.
 * **0.1b**: Fixed line appearing on the bottom right.
 * **0.1a**: Fixed buggy application menu transition.
 * **0.1**: Added Centered, semi transparent tabs and transitions. Two flaws were introduced: A tiny line on the bottom right of the screen and the transition on the menu is buggy. I'm working on it.
@@ -75,23 +75,25 @@ Simple, elegant, minimal, like a polaroid photo.
 * ~~The private browsing indicator icon is misaligned with the navigation bar when in private browsing mode.* The bookmarks toolbar pushes the navigation toolbar past the bottom window boundary if "Only Show on New Tab" was set.~~
 * ~~When clicked, the address bar's URL text moves to the top of the results dropdown rather than staying in place.~~
 
-
-
-**macOS NOTE:**
+**macOS note**
 * FrameUI was designed to have the window control buttons on the bottom. However, due to the way that fullscreen windows work on macOS, the window control buttons will remain at the top of the window like other macOS apps. This complication is not present in windowed mode.
 
+# Notes from fork author:
+* This fork isn't itended to be merged into the main repo since it's intended to be a workaround for those who, like me, prefer the native horizontal tabs insted of vertical ones.
+* It have yet to be tested on Windows, I've only used it on a Linux machine with GTK firefox running.
+  
+# Notes from the main author*
+* After restarting, you'll notice that *all* of the controls -- the navigation bar, the window controls, *everything* -- has been moved to the bottom in a manner reminiscent of the Metro-based Internet Explorer app seen in Windows 8/8.1.  While I think Microsoft was on the right track with their attempts at a tablet-based interface... well, we all know what happened.  Apart from Microsoft's attempt at a touch interface (which was a half-done attempt anyway), I think no company to this day has yet to get right.
 
-# Motivation *from the main author*
-After restarting, you'll notice that *all* of the controls -- the navigation bar, the window controls, *everything* -- has been moved to the bottom in a manner reminiscent of the Metro-based Internet Explorer app seen in Windows 8/8.1.  While I think Microsoft was on the right track with their attempts at a tablet-based interface... well, we all know what happened.  Apart from Microsoft's attempt at a touch interface (which was a half-done attempt anyway), I think no company to this day has yet to get right.
-
-This theme is a step towards what I believe may solve the grand problem of unifying the desktop and tablet interface for ANY device form factor.  What I hope you'll find is that this interface works really well on *both* tablet and desktop form factors, precisely because there is no longer a need for a user to lift their arms to get to something as basic as the window controls -- they're now just a mere finger reach away.  
+* This theme is a step towards what I believe may solve the grand problem of unifying the desktop and tablet interface for ANY device form factor.  What I hope you'll find is that this interface works really well on *both* tablet and desktop form factors, precisely because there is no longer a need for a user to lift their arms to get to something as basic as the window controls -- they're now just a mere finger reach away.  
 
 # Reporting Issues
 FYI, this project is my first go at using CSS.  As this is the initial release on top of that, I anticipate there will be issues.  If you encounter any bugs or other issues, please post a thread and I'll do what I can, when I can. 
-
 Also: as this theme is a both a thought experiment and work in progress, it is possible the look and feel will change over time.  I welcome any and all suggestions for how this could be improved.  :)
 
 # Credits
 * HUGE SHOUTOUT to MrOtherGuy's ![Collection of random CSS hacks for Firefox](https://github.com/MrOtherGuy/firefox-csshacks) repo.
 * Private testers (who I can name here if they wish)
+
+
 
