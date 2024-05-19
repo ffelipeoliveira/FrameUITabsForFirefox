@@ -33,8 +33,8 @@ Simple, elegant, minimal, like a polaroid photo.
 # Changelog
 
 **Fork:**
-* **0.2b**: Better theme support.
-* **0.2**: Theme support for tabs.
+* **0.2a**: Added theme support for tabs.
+* **0.2**:  Added workaround for theme support on tabs.
 * **0.1b**: Fixed line appearing on the bottom right.
 * **0.1a**: Fixed buggy application menu transition.
 * **0.1**: Added Centered, semi transparent tabs and transitions. Two flaws were introduced: A tiny line on the bottom right of the screen and the transition on the menu is buggy. I'm working on it.
