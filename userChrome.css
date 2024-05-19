@@ -251,18 +251,17 @@ See the above repository for updates as well as full license text. */
   visibility: hidden !important;
 }
 
-/* ----------------------------------------------------------- */
 #TabsToolbar .titlebar-buttonbox-container {
-  /*   background: purple !important; */
   margin-top: 0px !important;
   margin-bottom: 5px !important;
 }
 
+/*Position tab bar and apply transitions*/
 #tabbrowser-tabs {
   position: absolute !important;
   bottom: 41px !important;
-  width: 100% !important;
-  margin: auto;
+  width:70% !important;
+  left: 15%;
   pointer-events: none;
   background-color: inherit;
 
@@ -270,13 +269,20 @@ See the above repository for updates as well as full license text. */
     transition: all 0.3s !important;
   }
 
+  /*Remove line from start of tab bar*/
   border-inline-start: none !important;
 }
 
+/*When on the first page, tabs are moved up as to not overlap with the fav bar*/
 :root[BookmarksToolbarOverlapsBrowser] #tabbrowser-tabs {
   bottom: 68px !important;
 }
 
+:root[BookmarksToolbarOverlapsBrowser] .tabbrowser-tab {
+  opacity: 100% !important;
+}
+
+/*Tab becomes transparent when it's not under pointer*/
 .tabbrowser-tab {
   opacity: 70% !important;
 }
@@ -285,6 +291,7 @@ See the above repository for updates as well as full license text. */
   opacity: 100% !important;
 }
 
+/*Center tabs*/
 #tabbrowser-arrowscrollbox:not([overflowing]) {
   --uc-flex-justify: center !important;
 }
@@ -293,15 +300,13 @@ scrollbox[orient=horizontal] {
   justify-content: var(--uc-flex-justify) !important;
 }
 
+
 .tab-background {
-  opacity: 80%;
-  border-radius: 5px;
-  background-color: var(--tab-selected-bgcolor);
+  background-color: var(--tab-selected-bgcolor) !important;
 }
 
 .tab-background:hover {
-  opacity: 100% !important;
-  filter: brightness(20%);
+  background-color: var(--tab-selected-bgcolor) !important;
 }
 
 .tabbrowser-tab[selected] .tab-background {
@@ -310,10 +315,6 @@ scrollbox[orient=horizontal] {
   background-color: var(--lwt-accent-color);
   background-size: cover;
   opacity: 100%;
-}
-
-.tab-close-button {
-  border-radius: 50% !important;
 }
 
 /*Override the unability to click element from the tabbrowser-tabs element*/
@@ -332,6 +333,8 @@ scrollbox[orient=horizontal] {
   margin-bottom: 5px !important;
   margin-top: 4px !important;
 }
+
+/*Workaround for not overlapping with the bg that appears when the button is hovered */
 #tabs-newtab-button:hover {
   background-color: transparent !important;
 }
