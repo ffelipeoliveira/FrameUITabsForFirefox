@@ -33,7 +33,7 @@ Simple, elegant, minimal, like a polaroid photo.
 # Changelog
 
 **Fork:**
-* **0.3** Better theme support.
+* **0.2b**: Better theme support.
 * **0.2**: Theme support for tabs.
 * **0.1b**: Fixed line appearing on the bottom right.
 * **0.1a**: Fixed buggy application menu transition.
